@@ -21,7 +21,10 @@ needs based on the random forest machine learning algorithm
 \details{
 This function uses a machine learning algorithm (random forest) to
 classify needs based on their content. It needs a training data set
-with classified needs (indicated by 0=not a need, 1=a need)
+with classified needs (indicated by 0=not a need, 1=a need).
+This function used code fragments from the archived R packages 
+maxent and RTextTools. The authors are Timothy P. Jurka, Yoshimasa Tsuruoka, 
+Loren Collingwood, Amber E. Boydstun, Emiliano Grossman, Wouter van Atteveldt
 }
 \examples{
 data(NMTrainingData)
